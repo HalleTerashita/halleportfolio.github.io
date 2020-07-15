@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>myportfolio</title>
+        <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="description" content="portfolio">
+        <link rel="icon" type="image/png" href="img/favicon.ico">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="page-header">
+                <div id="nav-drawer">
+                    <input id="nav-input" type="checkbox" class="nav-unshown">
+                    <label id="nav-open" for="nav-input"><span></span></label>
+                    <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+                    <div id="nav-content">
+                        <nav>
+                            <ul class="main-nav">
+                                <li><a href="#introduction">Profile</a></li>
+                                <li><a href="#works">Works</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="home" class="big-bg">
+                <h1><img class="logo" src="img/logo.png"></h1>
+                <div class="scroll"><span></span>scroll</div>
+        </div>
+        <div id="introduction" class="profile wrapper">
+            <h2 class="title">Profile</h2>
+            <h3>私の簡単なプロフィールです。</h3>
+            <div class="profflex">
+                <div class="flexitem">
+                    <table>
+                        <tr>
+                            <td>なまえ</td>
+                            <td>北城莉里花（きたしろ・りりか）</td>
+                        </tr>
+                        <tr>
+                            <td>年齢</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>得意なこと</td>
+                            <td>文章を書くこと</td>
+                        </tr>
+                        <tr>
+                            <td>職歴</td>
+                            <td>ホテルスタッフなど</td>
+                        </tr>
+                        <tr>
+                            <td>特徴</td>
+                            <td>左利き</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="flexitem"><img src="img/myimg.jpg"></div>
+            </div>
+        </div>
+        <div id="works">
+            <h2 class="title">Works</h2>
+            <h3>現在は主に架空サイトを制作しながら新しい技術の習得に励んでいます。毎回自己課題を設けること、視認性を高くすること、細部まで作りこむことを心がけています。（画像をクリックすると作品の詳細が出ます）</h3>
+            <div class="worksgrid_base">
+                <div class="worksitem">
+                    <button class="openModal"><img src="img/cinemas.png" alt="作品アイキャッチ"></button>
+                    <p>2020.05/映画館サイト</p>
+                    <section class="modalArea">
+                        <div class="modalBg"></div>
+                        <div class="modalWrapper">
+                            <div class="modalContents">
+                                <h1>2020.05　映画館サイト</h1>
+                                <div class="modaltext">
+                                    <h2>架空の映画館「mirage cinemas」のサイト。名画座の設定なので落ち着いた雰囲気が出るようにしました。</h2>
+                                    <table>
+                                        <tr>
+                                            <td>使用言語</td>
+                                            <td>HTML CSS</td>
+                                        </tr>
+                                        <tr>
+                                            <td>製作期間</td>
+                                            <td>約30時間</td>
+                                        </tr>
+                                        <tr>
+                                            <td>自己課題</td>
+                                            <td>コーディングに慣れる</td>
+                                        </tr>
+                                        <tr>
+                                            <td>頑張ったところ</td>
+                                            <td>CSSgrid、フォームの設置</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <a class="button" href="movietheater/index.html" target="_blank" rel="noopener noreferrer">もっと見る</a>
+                            </div>
+                            <div class="closeModal">
+                            ×
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="worksitem">
+                    <button class="openModal"><img src="img/flower.png" alt="作品アイキャッチ"></button>
+                    <p>2020.05/花屋サイト</p>
+                    <section class="modalArea">
+                        <div class="modalBg"></div>
+                        <div class="modalWrapper">
+                            <div class="modalContents">
+                                <h1>2020.05　花屋サイト</h1>
+                                <div class="modaltext">
+                                    <h2>架空の花屋のサイト。華やかになりすぎないよう心がけました。</h2>
+                                    <table>
+                                        <tr>
+                                            <td>使用言語</td>
+                                            <td>HTML CSS</td>
+                                        </tr>
+                                        <tr>
+                                            <td>製作期間</td>
+                                            <td>約15時間</td>
+                                        </tr>
+                                        <tr>
+                                            <td>自己課題</td>
+                                            <td>コーディングに慣れる</td>
+                                        </tr>
+                                        <tr>
+                                            <td>頑張ったところ</td>
+                                            <td>2カラムレイアウト</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <a class="button" href="0519homework/index.html" target="_blank" rel="noopener noreferrer">もっと見る</a>
+                            </div>
+                            <div class="closeModal">
+                            ×
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="worksitem">
+                    <button class="openModal"><img src="img/fog.png" alt="作品アイキャッチ"></button>
+                    <p>2020.06/レストランサイト</p>
+                    <section class="modalArea">
+                        <div class="modalBg"></div>
+                        <div class="modalWrapper">
+                            <div class="modalContents">
+                                <h1>2020.06　レストランサイト</h1>
+                                <div class="modaltext">
+                                    <h2>架空のレストラン「fog」のサイト。すっきりとしたレイアウトを心がけました。</h2>
+                                    <table>
+                                        <tr>
+                                            <td>使用言語</td>
+                                            <td>HTML CSS</td>
+                                        </tr>
+                                        <tr>
+                                            <td>製作期間</td>
+                                            <td>約25時間</td>
+                                        </tr>
+                                        <tr>
+                                            <td>自己課題</td>
+                                            <td>CSSアニメーションの実装</td>
+                                        </tr>
+                                        <tr>
+                                            <td>頑張ったところ</td>
+                                            <td>横スライダーの実装</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <a class="button" href="restaurant/index.html" target="_blank" rel="noopener noreferrer">もっと見る</a>
+                            </div>
+                            <div class="closeModal">
+                            ×
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="worksitem">
+                    <button class="openModal"><img src="img/lip.png"></button>
+                    <p>2020.06/化粧品サイト</p>
+                    <section class="modalArea">
+                        <div class="modalBg"></div>
+                        <div class="modalWrapper">
+                            <div class="modalContents">
+                                <h1>2020.06　化粧品サイト</h1>
+                                <div class="modaltext">
+                                    <h2>架空のブランドのLP。「赤」をテーマにしています。</h2>
+                                    <table>
+                                        <tr>
+                                            <td>使用言語</td>
+                                            <td>HTML CSS</td>
+                                        </tr>
+                                        <tr>
+                                            <td>製作期間</td>
+                                            <td>約10時間</td>
+                                        </tr>
+                                        <tr>
+                                            <td>自己課題</td>
+                                            <td>CSSアニメーションの実装</td>
+                                        </tr>
+                                        <tr>
+                                            <td>頑張ったところ</td>
+                                            <td>画像スライドショーの実装</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <a class="button" href="6.16homework/index.html" target="_blank" rel="noopener noreferrer">もっと見る</a>
+                            </div>
+                            <div class="closeModal">
+                            ×
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="worksitem">
+                    <button class="openModal"><img src="img/sharehouse.png"></button>
+                    <p>2020.06/シェアハウスサイト</p>
+                    <section class="modalArea">
+                        <div class="modalBg"></div>
+                        <div class="modalWrapper">
+                            <div class="modalContents">
+                                <h1>2020.06　シェアハウスサイト</h1>
+                                <div class="modaltext">
+                                    <h2>架空のシェアハウスのLP。視覚的にも穏やかに、落ち着いて見られるようにしました。</h2>
+                                    <table>
+                                        <tr>
+                                            <td>使用言語</td>
+                                            <td>HTML CSS JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                            <td>製作期間</td>
+                                            <td>約20時間</td>
+                                        </tr>
+                                        <tr>
+                                            <td>自己課題</td>
+                                            <td>JavaScriptの実装</td>
+                                        </tr>
+                                        <tr>
+                                            <td>頑張ったところ</td>
+                                            <td>スクロールと同時にJSの発動
+                                                <br>カルーセルスライダーの実装
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <a class="button" href="sharehouse/index.html" target="_blank" rel="noopener noreferrer">もっと見る</a>
+                            </div>
+                            <div class="closeModal">
+                            ×
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="worksitem">
+                    <button class="openModal"><img src="img/portfolio.png" alt="作品アイキャッチ"></button>
+                    <p>2020.07/ポートフォリオ</p>
+                    <section class="modalArea">
+                        <div class="modalBg"></div>
+                        <div class="modalWrapper">
+                            <div class="modalContents">
+                                <h1>2020.07　ポートフォリオ</h1>
+                                <div class="modaltext">
+                                    <h2>自分のポートフォリオ（当サイト）落ち着いた雰囲気を心がけています。</h2>
+                                    <table>
+                                        <tr>
+                                            <td>使用言語</td>
+                                            <td>HTML CSS JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                            <td>製作期間</td>
+                                            <td>約30時間</td>
+                                        </tr>
+                                        <tr>
+                                            <td>自己課題</td>
+                                            <td>JavaScriptの実装</td>
+                                        </tr>
+                                        <tr>
+                                            <td>頑張ったところ</td>
+                                            <td>モーダルウィンドウの実装</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <a class="button" href="#">もっと見る</a>
+                            </div>
+                            <div class="closeModal">
+                            ×
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="worksitem">
+                    <img src="img/kotohogi.png" alt="作品アイキャッチ">
+                    <p>2020.07~/coming soon...</p>
+                </div>
+            </div>
+        </div>
+        <div id="skills">
+            <h2 class="title">Skills</h2>
+            <h3>使用可能スキル一覧です。今後順次増えていく予定です。</h3>
+            <div class="skillsgrid">
+                <div class="skillsitem">
+                    <h4>HTML</h4>
+                    <br><span class="rate rate1"></span>
+                    <p>2020.04~</p>
+                </div>
+                <div class="skillsitem">
+                    <h4>CSS</h4>
+                    <br><span class="rate rate2"></span>
+                    <p>2020.04~</p>
+                </div>
+                <div class="skillsitem">
+                    <h4>Javascript</h4>
+                    <br><span class="rate rate3"></span>
+                    <p>2020.06~</p>
+                </div>
+                <div class="skillsitem">
+                    <h4>PHP</h4>
+                    <br><span class="rate rate4"></span>
+                    <p>2020.07~</p>
+                </div>
+                <div class="skillsitem">
+                    <h4>XD</h4>
+                    <br><span class="rate rate5"></span>
+                    <p>2020.06~</p>
+                </div>
+                <div class="skillsitem">
+                    <h4>writing</h4>
+                    <br><span class="rate rate6"></span>
+                    <p>2018.01~</p>
+                </div>
+                <div class="skillsitem">
+                    <h4>English</h4>
+                    <br><span class="rate rate7"></span>
+                    <p>2018.08~</p>
+                </div>
+                <div class="skillsitem">
+                    <h4>coming soon...</h4>
+                    <br><span class="rate rate8"></span>
+                    <p>coming soon...</p>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <h2 class="title">Contact</h2>
+            <h3>※実装前なので実際に送信することはできません。</h3>
+            <div class="wrapper">
+                <form action="#">
+                    <div>
+                        <label for="name">お名前</label>
+                        <input type="text" id="name" name="yourname">
+                    </div>
+                    <div>
+                        <label for="email">メールアドレス</label>
+                        <input type="email" id="email" name="youremail">
+                    </div>
+                    <div>
+                        <label for="message">メッセージ</label>
+                        <textarea id="message" name="yourmessage"></textarea>
+                    </div>
+                    <input type="submit" class="button" value="send">
+                </form>
+            </div>
+        </div>
+        <div id="page_top"><a href="#"></a></div>
+        <footer>
+            <div class="wrapper">
+                <p><small>&copy; 2020 portfolio</small></p>
+            </div>
+        </footer>
+    </body>
+</html>
